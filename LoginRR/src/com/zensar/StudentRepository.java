@@ -17,13 +17,14 @@ public class StudentRepository {
 			ResultSet rs = pst.executeQuery();
 			while(rs.next()) {
 				String psswordDB = rs.getString("password");
+				System.out.println(psswordDB);
 				if(spassword.equals(psswordDB)) {
 					result = true;
 				}
 			}
 
 		} catch (Exception e) {
-			System.out.println("addStudent catch" + e);
+			System.out.println("logincheck catch" + e);
 		}
 		return result;
 	}

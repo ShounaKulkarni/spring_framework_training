@@ -16,10 +16,9 @@
    <%= request.getAttribute("fname") %>
 		 
 	
-		<h1>Welcome To Employee Details Page:</h1>
-		<a href="addStudent.jsp"><input type="button" value="Add Student" /></a><br>
-		<br> <a href="getAllStudent?requestAction=getAllS"><input
-			type="button" value="Show all Students" /></a><br> <br> <a
+		<h1>Welcome </h1>
+		
+		 <br> <a
 			href="loginForm.jsp"><input type="button" value="logout" /></a><br>
 	</center>
 
